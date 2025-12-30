@@ -99,11 +99,9 @@ const init = async () => {
               <div>
                 <div class="flex items-center mb-2">
                   <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8 mr-2">
-                  <span class="text-white font-bold text-lg">BentoPDF</span>
+                  <span class="text-white font-bold text-lg">isPDF.com</span>
                 </div>
-                <p class="text-gray-400 text-sm">
-                  &copy; 2025 BentoPDF. All rights reserved.
-                </p>
+               
                 <p class="text-gray-500 text-xs mt-2">
                   Version <span id="app-version-simple">${APP_VERSION}</span>
                 </p>
