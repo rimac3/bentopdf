@@ -601,3 +601,4 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .hide-section,#hero-section,#features-section{display:none;}
+#my-nav{justify-content: space-between;}
