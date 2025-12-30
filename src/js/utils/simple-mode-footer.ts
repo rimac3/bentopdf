@@ -40,5 +40,30 @@ if (__SIMPLE_MODE__) {
       }
       langContainer.appendChild(switcher);
     }
+
+    
+    const mylangdiv = document.createElement('div');
+    mylangdiv.className = 'mt-16 border-t-2 border-gray-700 py-8';
+    
+    mylangdiv.innerHTML = `
+          <div id="my-simple-mode-lang-switcher" class="flex-shrink-0"></div>
+        
+    `;
+    const mynav = document.body.querySelector('nav .container');
+    mynav.appendChild(mylangdiv);
+
+    const mylangContainer = mylangdiv.querySelector('#my-simple-mode-lang-switcher');
+    if (mylangContainer) {
+      const myswitcher = createLanguageSwitcher();
+      const mydropdown = myswitcher.querySelector('div[role="menu"]');
+      if (mydropdown) {
+        mydropdown.classList.remove('mt-2');
+        mydropdown.classList.add('bottom-full', 'mb-2');
+      }
+      mylangContainer.appendChild(myswitcher);
+    }
+
+
+    
   }
 }
