@@ -98,7 +98,7 @@ const init = async () => {
             <div class="flex items-center justify-between flex-wrap gap-4">
               <div>
                 <div class="flex items-center mb-2">
-                  <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8 mr-2">
+                  <img src="/images/favicon.svg" alt="isPDF.com" class="h-8 w-8 mr-2">
                   <span class="text-white font-bold text-lg">isPDF.com</span>
                 </div>
                
