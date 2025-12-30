@@ -32,7 +32,7 @@ const init = async () => {
               <div class="flex-shrink-0 flex items-center cursor-pointer" id="home-logo">
                 <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8">
                 <span class="text-white font-bold text-xl ml-2">
-                  <a href="index.html">BentoPDF</a>
+                  <a href="index.html">isPDF.com</a>
                 </span>
               </div>
             </div>
