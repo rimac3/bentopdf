@@ -9,6 +9,14 @@
       "destination": "/:match+"
     },
     {
+      "source": "/:lang([a-z]{2,4}-[A-Z]{2})/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:lang([a-z]{2,4})/",
+      "destination": "/index.html"
+    },
+    {
       "source": "/:lang([a-z]{2,4}-[A-Z]{2})",
       "destination": "/index.html"
     },
