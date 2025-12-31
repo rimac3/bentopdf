@@ -135,7 +135,7 @@ const init = async () => {
         (divider as HTMLElement).style.display = 'none';
       });
 
-      document.title = 'BentoPDF - PDF Tools';
+      document.title = 'isPDF - PDF Tools';
 
       const toolsHeader = document.getElementById('tools-header');
       if (toolsHeader) {
