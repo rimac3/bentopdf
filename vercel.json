@@ -1,20 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/:lang([a-z]{2,3}(-[A-Z]{2})?)/index.html",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/:lang([a-z]{2,3}(-[A-Z]{2})?)/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/:lang([a-z]{2,3}(-[A-Z]{2})?)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/:lang([a-z]{2,3}(-[A-Z]{2})?)/:tool.html",
-      "destination": "/:tool.html"
+      "source": "/:lang([a-z]{2,3}(-[A-Z]{2})?)/:match*",
+      "destination": "/:match*"
     }
   ]
 }
